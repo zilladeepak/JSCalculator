@@ -1,8 +1,6 @@
 const button = document.querySelectorAll('button');
 const display = document.querySelector('.screen');
 
-const lastOperator = false
-
 function calc(button) {
     if (button.id === 'equal') {
         display.textContent = eval(display.textContent);
